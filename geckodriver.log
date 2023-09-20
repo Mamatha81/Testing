@@ -1,0 +1,801 @@
+1694584218649	geckodriver	INFO	Listening on 127.0.0.1:56380
+1694584221676	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilenigBni"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694584222670	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694584222811	Marionette	INFO	Listening on port 56432
+WebDriver BiDi listening on ws://127.0.0.1:56381
+Read port: 56432
+1694584223179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56381/devtools/browser/52c04b2d-350d-4c60-972c-cfc8f050a4cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+1694584264359	Marionette	INFO	Stopped listening on port 56432
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1694584264395	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+1694584277616	geckodriver	INFO	Listening on 127.0.0.1:50789
+1694584280660	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileN56jFM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694584281150	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694584281256	Marionette	INFO	Listening on port 50799
+WebDriver BiDi listening on ws://127.0.0.1:50790
+Read port: 50799
+1694584281605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50790/devtools/browser/167272cd-e71e-426b-9f17-f9707e9d4a2b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+1694584551193	Marionette	INFO	Stopped listening on port 50799
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1694584551336	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+ool.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694591259975	Marionette	INFO	Stopped listening on port 50986
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1694591260070	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694591258952	Marionette	INFO	Stopped listening on port 51130
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+e.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694585350568	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694585350684	Marionette	INFO	Listening on port 51674
+WebDriver BiDi listening on ws://127.0.0.1:51665
+Read port: 51674
+1694585350964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51665/devtools/browser/2cb97d43-6daa-491f-b2c3-750f35d35eb7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1694591256989	Marionette	INFO	Stopped listening on port 51674
+Dynamically enable window occlusion 1
+efox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileHUEJhV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694585462156	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694585462256	Marionette	INFO	Listening on port 51794
+WebDriver BiDi listening on ws://127.0.0.1:51786
+Read port: 51794
+1694585462605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51786/devtools/browser/ae481138-a960-477e-b7e9-907e4a2ea2f7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694585764659	Marionette	INFO	Stopped listening on port 51794
+Dynamically enable window occlusion 1
+"--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilelLgOQg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694585714143	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694585714253	Marionette	INFO	Listening on port 52036
+WebDriver BiDi listening on ws://127.0.0.1:52027
+Read port: 52036
+1694585714578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52027/devtools/browser/6cb31874-536c-486c-bc04-029c712bb833
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1694591254954	Marionette	INFO	Stopped listening on port 52036
+Dynamically enable window occlusion 1
+efox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileyu6XUx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694586282645	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694586282767	Marionette	INFO	Listening on port 52546
+WebDriver BiDi listening on ws://127.0.0.1:52537
+Read port: 52546
+1694586283118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52537/devtools/browser/7ef13ac6-c34f-434b-bbc0-f40c649cf013
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694591253784	Marionette	INFO	Stopped listening on port 52546
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1694591253986	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1694606624757	Marionette	INFO	Stopped listening on port 50560
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+JavaScript error: resource://gre/actors/AutoCompleteChild.sys.mjs, line 151: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+FO	Marionette enabled
+Dynamically enable window occlusion 0
+1694592858088	Marionette	INFO	Listening on port 52781
+WebDriver BiDi listening on ws://127.0.0.1:52771
+Read port: 52781
+1694592858428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52771/devtools/browser/2b4aad49-2100-44d7-ac36-fcad6d32bb5d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1694606625060	Marionette	INFO	Stopped listening on port 52781
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+JavaScript error: resource://gre/actors/AutoCompleteChild.sys.mjs, line 151: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+FO	Marionette enabled
+Dynamically enable window occlusion 0
+1694592949434	Marionette	INFO	Listening on port 52883
+WebDriver BiDi listening on ws://127.0.0.1:52875
+Read port: 52883
+1694592949784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52875/devtools/browser/683d1cc2-e570-4c64-a049-e3fa1b98878e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://facegenie-ams-school.web.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\91889\AppData\Local\Temp\rust_mozprofilepvHLfn\bookmarkbackups\bookmarks-2023-09-13.jsonlz4) because it does not exist
+1694606625055	Marionette	INFO	Stopped listening on port 52883
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+JavaScript error: resource://gre/actors/AutoCompleteChild.sys.mjs, line 151: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1695027645942	geckodriver	INFO	Listening on 127.0.0.1:58102
+1695027649039	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofile4MSsZq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695027649842	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695027649948	Marionette	INFO	Listening on port 58114
+WebDriver BiDi listening on ws://127.0.0.1:58103
+Read port: 58114
+1695027650309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58103/devtools/browser/d9844756-8f67-4c87-9059-7427ee29545c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y2/l/en_GB/vk9ztfbh-nf.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y2/l/en_GB/vk9ztfbh-nf.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y2/l/en_GB/vk9ztfbh-nf.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y2/l/en_GB/vk9ztfbh-nf.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Iz6wPRCQaYf.js?_nc_x=Ij3Wp8lg5Kz, line 326: Script terminated by timeout at:
+d.isHidden@https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Iz6wPRCQaYf.js?_nc_x=Ij3Wp8lg5Kz:326:778
+@https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Iz6wPRCQaYf.js?_nc_x=Ij3Wp8lg5Kz:326:1034
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Iz6wPRCQaYf.js?_nc_x=Ij3Wp8lg5Kz:61:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Iz6wPRCQaYf.js?_nc_x=Ij3Wp8lg5Kz:321:2086
+
+1695027689038	Marionette	INFO	Stopped listening on port 58114
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1695027728104	geckodriver	INFO	Listening on 127.0.0.1:58208
+1695027731160	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileGSBLlS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695027731439	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695027731527	Marionette	INFO	Listening on port 58217
+WebDriver BiDi listening on ws://127.0.0.1:58209
+Read port: 58217
+1695027731865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58209/devtools/browser/527a5049-bafa-4a18-ab70-be1adfdb0e76
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695027788210	Marionette	INFO	Stopped listening on port 58217
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1695027848762	geckodriver	INFO	Listening on 127.0.0.1:58333
+1695027851800	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofile5xjwoj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695027852206	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695027852299	Marionette	INFO	Listening on port 58341
+WebDriver BiDi listening on ws://127.0.0.1:58334
+Read port: 58341
+1695027852562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58334/devtools/browser/5d2f3f5d-b987-4ac5-bcfd-4c86e14b76dc
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695027919145	Marionette	INFO	Stopped listening on port 58341
+Dynamically enable window occlusion 1
+1695027934843	geckodriver	INFO	Listening on 127.0.0.1:58424
+1695027937892	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilee7KqE4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695027938188	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695027938285	Marionette	INFO	Listening on port 58432
+WebDriver BiDi listening on ws://127.0.0.1:58425
+Read port: 58432
+1695027938552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58425/devtools/browser/a0de7b41-ea10-43d1-9af9-727d9cb40d0d
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz, line 271: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz:271:113
+
+1695027962534	Marionette	INFO	Stopped listening on port 58432
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1695027962582	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+1695028032937	geckodriver	INFO	Listening on 127.0.0.1:58475
+1695028035979	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilevRdUkF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028036263	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028036356	Marionette	INFO	Listening on port 58483
+WebDriver BiDi listening on ws://127.0.0.1:58476
+Read port: 58483
+1695028036678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58476/devtools/browser/e927d173-9712-4250-a3b4-d103ad53452d
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695028116170	geckodriver	INFO	Listening on 127.0.0.1:58544
+1695028119208	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileWm1Xg6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028119549	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028119640	Marionette	INFO	Listening on port 58552
+WebDriver BiDi listening on ws://127.0.0.1:58545
+Read port: 58552
+1695028119990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58545/devtools/browser/412d8efa-6af2-4c97-a725-00009fee27fb
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd, line 560: Script terminated by timeout at:
+yo@https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd:560:182732
+
+1695028176454	Marionette	INFO	Stopped listening on port 58552
+Dynamically enable window occlusion 1
+1695028240557	geckodriver	INFO	Listening on 127.0.0.1:58632
+1695028243609	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilebJn6c1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028244086	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028244184	Marionette	INFO	Listening on port 58640
+WebDriver BiDi listening on ws://127.0.0.1:58633
+Read port: 58640
+1695028244489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58633/devtools/browser/50038211-a039-49a4-b458-229496f66149
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd, line 579: Script terminated by timeout at:
+i@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:579:114
+toJSON@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:580:9429
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3i2hL4/yP/l/makehaste_jhash/KvNozPcv0rq_Jy6poOYGbQTrkrKRHS847ERujkgt-mHStlrfLKoTUCz6xJ4v5R7C9YkMulfd2fWO7coYiXJQQr5KeAZFvwvJyr2Uq5_hN4DUK6Z9tq6RzS11vgChAKRNIPDZ4iAGS1Dzm7ncAAmG8tAOScq9nnDCH3eWr2wOnQ1JDPnGG4kLKlru4wUhvRDmAKIEowpx0yst93fOujcYmdzU4MLcEhzv1zU_yVmZ5FWaX7lD4AOHoXTETBQBLsRUzszAEOKJ-MBuuNHEE_odOJkPGoOFgvnOBU7hCY2soIXuAfbTHO2LOXTvGL1z1pymtnon0A-l4K.js?_nc_x=RsfWYiYBSEd:645:243
+seq@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:580:8479
+a@https://static.xx.fbcdn.net/rsrc.php/v3i2hL4/yP/l/makehaste_jhash/KvNozPcv0rq_Jy6poOYGbQTrkrKRHS847ERujkgt-mHStlrfLKoTUCz6xJ4v5R7C9YkMulfd2fWO7coYiXJQQr5KeAZFvwvJyr2Uq5_hN4DUK6Z9tq6RzS11vgChAKRNIPDZ4iAGS1Dzm7ncAAmG8tAOScq9nnDCH3eWr2wOnQ1JDPnGG4kLKlru4wUhvRDmAKIEowpx0yst93fOujcYmdzU4MLcEhzv1zU_yVmZ5FWaX7lD4AOHoXTETBQBLsRUzszAEOKJ-MBuuNHEE_odOJkPGoOFgvnOBU7hCY2soIXuAfbTHO2LOXTvGL1z1pymtnon0A-l4K.js?_nc_x=RsfWYiYBSEd:645:140
+a/</<@https://static.xx.fbcdn.net/rsrc.php/v3i2hL4/yP/l/makehaste_jhash/KvNozPcv0rq_Jy6poOYGbQTrkrKRHS847ERujkgt-mHStlrfLKoTUCz6xJ4v5R7C9YkMulfd2fWO7coYiXJQQr5KeAZFvwvJyr2Uq5_hN4DUK6Z9tq6RzS11vgChAKRNIPDZ4iAGS1Dzm7ncAAmG8tAOScq9nnDCH3eWr2wOnQ1JDPnGG4kLKlru4wUhvRDmAKIEowpx0yst93fOujcYmdzU4MLcEhzv1zU_yVmZ5FWaX7lD4AOHoXTETBQBLsRUzszAEOKJ-MBuuNHEE_odOJkPGoOFgvnOBU7hCY2soIXuAfbTHO2LOXTvGL1z1pymtnon0A-l4K.js?_nc_x=RsfWYiYBSEd:652:588
+f@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:275:12345
+value@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:275:11441
+a/N/<@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:275:11835
+a/runExclusively/</a<@https://static.xx.fbcdn.net/rsrc.php/v3inPz4/yK/l/makehaste_jhash/czX7rADGxjtWWuIUZFmL98xxiUb4VK2Yso3tfbor2e6sph0Z9o4rdHglF0qPeMFncNg4T4YVB2U9-khh0Xju5GZ0rD2KFxrkL4QMxSAcqItU4sqF6MxEGRsGQBv1L2C7uK_zm3CHDsBIpCcLNrc7Bv18O4vsG5G2LwaHXECpITXsnHu7axU18fraQFx3AMfmAXWIH0xSGPwcU_31xOLvOwu6_hb3e2aWLBUEwxovgj23XqZO1Ww6jlQBtaJUBRoBvnHXZDjuYnT77NGCdlReYGJY1gy22F5py2LsdlHIzSMFRJ78m2vk3bq-05xdWkZpXAsc9kstGp.js?_nc_x=RsfWYiYBSEd:276:1114
+h@https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd:1346:125
+g@https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd:1346:350
+a/</<@https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd:1346:409
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3iZLA4/y2/l/makehaste_jhash/teXzjAYc9puCme5fKU2lzmE-Q56e1T4swaw5j1F_Bkq0LbsMwagdvIYDGjFj92uJyWmBWVLfAfuTdXkHcnFOyZa0mU8XS8slQBJHXmxSFnuGV_MBdEopzf7LKMJ5BP-rlv9K-PMnXXCbgCnZQllFv7EHEl.js?_nc_x=RsfWYiYBSEd:1346:277
+
+1695028297552	Marionette	INFO	Stopped listening on port 58640
+Dynamically enable window occlusion 1
+1695028392152	geckodriver	INFO	Listening on 127.0.0.1:58708
+1695028395204	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilemykupp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028395483	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028395573	Marionette	INFO	Listening on port 58716
+WebDriver BiDi listening on ws://127.0.0.1:58709
+Read port: 58716
+1695028395997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58709/devtools/browser/530eebb7-9985-46bc-85f6-8c9fc1292b72
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y2/l/en_GB/vk9ztfbh-nf.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695028447849	Marionette	INFO	Stopped listening on port 58716
+Dynamically enable window occlusion 1
+1695028557885	geckodriver	INFO	Listening on 127.0.0.1:58817
+1695028560934	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofileUf8aCk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028561201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028561291	Marionette	INFO	Listening on port 58826
+WebDriver BiDi listening on ws://127.0.0.1:58818
+Read port: 58826
+1695028561595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58818/devtools/browser/ed146763-c32a-4e76-9c86-05d4f2b419db
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:58945
+1695028665228	mozrunner::runner	INFO	Running command: "C:\\Users\\91889\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91889\\AppData\\Local\\Temp\\rust_mozprofilehc6Ana"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695028665498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695028665587	Marionette	INFO	Listening on port 58960
+WebDriver BiDi listening on ws://127.0.0.1:58946
+Read port: 58960
+1695028665895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58946/devtools/browser/99425eb9-d916-40f3-9eef-728c2bb5a92a
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6S44/yA/l/makehaste_jhash/E4DMUZw97Ea.js?_nc_x=RsfWYiYBSEd, line 160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/7wBdSZVSwYD.js?_nc_x=RsfWYiYBSEd, line 150: TypeError: m is undefined
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yj/l/en_GB/pN5X74nKzUM.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz, line 47: Script terminated by timeout at:
+D@https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz:47:1437
+h@https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz:256:349
+a@https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/-WpDkE8MeI4.js?_nc_x=Ij3Wp8lg5Kz:256:608
+
+1695028718752	Marionette	INFO	Stopped listening on port 58960
+Dynamically enable window occlusion 1
