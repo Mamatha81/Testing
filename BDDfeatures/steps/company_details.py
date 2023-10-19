@@ -63,7 +63,7 @@ def extract(context):
 @then('Successfully Make Csv file of all data')
 def csv_data(context):
     import csv
-    with open('out.csv', 'w', newline='') as f:
+    with open('company_deatils.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerows([['names','address','phone','rating','Reviews','lattitude','longitude']])
         writer.writerows(final_details)
