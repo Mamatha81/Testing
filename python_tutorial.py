@@ -546,9 +546,9 @@ class types_methods:
     def insta(self):
         print("this is instance method")
 
-        @staticmethod
-        def stati():
-            print('this is static method')
+    @staticmethod
+    def stati():
+        print('this is static method')
 
 
 m = types_methods()
