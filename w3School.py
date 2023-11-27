@@ -754,76 +754,70 @@ for i in num:
     print('Current Number ' + str(i) + ' Previous Number ' + str(previous) + ' is ' + str(sum))
     previous = i
 
-
 s = "pynative"
 for i in s[::2]:
     print(i)
 
 s = "pynative"
-x=s[2:]
+x = s[2:]
 print(x)
 
 x = [10, 20, 30, 40, 10]
-if x[0]==x[-1]:
+if x[0] == x[-1]:
     print("result is true")
 else:
     print("result is false")
 y = [75, 65, 35, 75, 30]
-if x[0]==x[-1]:
+if x[0] == x[-1]:
     print("result is true")
 else:
     print("result is false")
 
-z=[10, 20, 33, 46, 55]
+z = [10, 20, 33, 46, 55]
 for i in z:
-    if i%5==0:
+    if i % 5 == 0:
         print(i)
 
-
 x = "Emma is good developer. Emma is a writer"
-y=x.count("Emma")
-print("emma is appeared", y," times")
+y = x.count("Emma")
+print("emma is appeared", y, " times")
 
-
-n=5
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(i,end="")
+n = 5
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(i, end="")
     print()
 
-
-x=121
-y=str(x)
-z=y[::-1]
-if z==y:
+x = 121
+y = str(x)
+z = y[::-1]
+if z == y:
     print("Yes. given number is palindrome number")
 else:
     print("No. given number is not palindrome number")
 
-
-x=125
-y=str(x)
-z=y[::-1]
-if z==y:
+x = 125
+y = str(x)
+z = y[::-1]
+if z == y:
     print("Yes. given number is palindrome number")
 else:
     print("No. given number is not palindrome number")
-
 
 list1 = [10, 20, 25, 30, 35]
 list2 = [40, 45, 60, 75, 90]
-values=[]
+values = []
 for i in list1:
-    if i%2!=0:
+    if i % 2 != 0:
         values.append(i)
 for i in list2:
-    if i%2==0:
+    if i % 2 == 0:
         values.append(i)
 print(values)
 
-for i in range(1,11):
-    for j in range(1,11):
-        print(i*j,end=" ")
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end=" ")
     print("\t")
 
 # rows = int(input("Enter number of rows: "))
@@ -843,35 +837,33 @@ for i in range(1,11):
 print('Name', 'Is', 'James', sep='**')
 
 num = 458.541315
-print('%.3f'% num)
+print('%.3f' % num)
 
-i=0
-while i<11:
+i = 0
+while i < 11:
     print(i)
-    i+=1
+    i += 1
 
-for i in range(1,11):
-    for j in range(1,11):
-        print(i*j,end=" ")
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end=" ")
     print("\t")
-
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 for i in numbers:
-    if i> 500:
+    if i > 500:
         break
-    elif i>150:
+    elif i > 150:
         continue
-    elif i%5==0:
+    elif i % 5 == 0:
         print(i)
 
 lis = [10, 20, 30, 40, 50]
-l=reversed(lis)
+l = reversed(lis)
 for x in l:
     print(x)
 
-
-for i in range(-10,0,1):
+for i in range(-10, 0, 1):
     print(i)
 
 for i in range(5):
@@ -879,44 +871,152 @@ for i in range(5):
 else:
     print("Done!")
 
-
-x= 5 * 4 * 3 * 2 * 1
+x = 5 * 4 * 3 * 2 * 1
 print(x)
 
-def data(name,age):
-    # print(name,age)
-    print("my  name is ", name, "and ", age, " years old" )
-data("mam",22)
 
-x= [100, 200, 300, 400, 500]
-y=reversed(x)
+def data(name, age):
+    # print(name,age)
+    print("my  name is ", name, "and ", age, " years old")
+
+
+data("mam", 22)
+
+x = [100, 200, 300, 400, 500]
+y = reversed(x)
 for i in y:
     print(i)
 
 x = ["M", "na", "i", "Ke"]
 y = ["y", "me", "s", "lly"]
-z=[i + j for i,j in zip (x,y) ]
+z = [i + j for i, j in zip(x, y)]
 print(z)
 
-x=[1, 2, 3, 4, 5, 6, 7]
-y=[]
+x = [1, 2, 3, 4, 5, 6, 7]
+y = []
 for i in x:
-    y.append(i*i)
+    y.append(i * i)
 print(y)
-
 
 x = [10, 20, 30, 40]
 y = [100, 200, 300, 400]
-z=[i + j for i,j in zip (x,y) ]
+z = [i + j for i, j in zip(x, y)]
 print(z)
 
-x=float(2.8)
+x = float(2.8)
 print(type(x))
 
-
-x={1,2,3,2}
+x = {1, 2, 3, 2}
 print(x)
 
-x=15*12
+x = 15 * 12
 print(x)
+
+
+class my_class:
+    def ok(self):
+        pass
+
+    def name(self):
+        print("hello")
+
+
+m = my_class()
+m.ok()
+m.name()
+
+
+class my_func:
+    def insta(self):
+        print("this is instance method")
+
+    def stati(self):
+        print("this is stastic method")
+
+
+m1 = my_func()
+m1.insta()
+m1.stati()
+
+
+class func:
+    @staticmethod
+    def stati():
+        print("this is stastic method")
+
+
+m2 = func()
+m2.stati()
+
+
+class variables:
+    a, b = 1, 2
+
+    def add(self):
+        print(self.a + self.b)
+
+
+m3 = variables()
+m3.add()
+
+a, b = 2, 3
+
+
+class type_vars:
+    i, j = 10, 20
+
+    def add(self, x, y):
+        print(x + y)
+        print(self.i + self.j)
+        print(a + b)
+
+
+m4 = type_vars()
+m4.add(40, 50)
+
+a, b = 2, 3
+
+
+class type_vars:
+    a, b = 10, 20
+
+    def add(self, a, b):
+        print(a + b)
+        print(self.a + self.b)
+        print(globals()['a'] + globals()['b'])
+
+
+m4 = type_vars()
+m4.add(40, 50)
+
+
+class my_funcs:
+    def insta(self):
+        print("this is instance method")
+
+
+m5 = my_funcs()
+m5.insta()
+
+m5 = my_funcs()
+m5.insta()
+
+
+class my_fncs:
+    def instas(self):
+        print("this is instance method")
+
+
+m6 = my_fncs()
+m6.instas()
+my_fncs().instas()
+
+
+x=2100
+if x%4==0:
+    print("True")
+else:
+    print("False")
+
+
 

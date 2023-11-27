@@ -1,3 +1,4 @@
+# ** https://www.youtube.com/watch?v=gDlQoqLTt98&list=PLUDwpEzHYYLvxZO0QTnhhTP7OaBzovwW4&index=27 **
 # 1 *** comments
 
 #  2 *** keywords
@@ -547,10 +548,374 @@ class types_methods:
         print("this is instance method")
 
     @staticmethod
-    def stati():
+    def stati():  # if we mentioned "self"  types_methods.stati() missing 1 required positional argument: 'self'
+        #               if we mentioned "self"  then we should pass 1 parameter
         print('this is static method')
 
 
 m = types_methods()
 m.insta()
 types_methods.stati()
+
+
+# * static method with parameter
+class stati_with_para:
+    @staticmethod
+    def stati(self):
+        print("this is satic")
+
+
+stati_with_para.stati(1)
+
+
+# * declaring variables inside the class
+class variables:
+    a, b = 10, 20
+
+    def add(self):
+        print(self.a + self.b)
+
+    def multi(self):
+        print(self.a * self.b)
+
+
+v = variables()
+v.add()
+v.multi()
+
+# * local variables, class variables, global variables
+
+a, b = 10, 20  # global variables
+
+
+class types_variables():
+    i, j = 100, 200  # class variables
+
+    def adding(self, x, y):  # local variables
+        print(x + y)  # accessing local variables  70
+        print(self.i + self.j)  # accessing local variables  300
+        print(a + b)
+
+
+tv = types_variables()
+tv.adding(30, 40)
+
+# * local variables, class variables, global variables with the same name
+
+a, b = 1, 2  # global variables
+
+
+class same_name_vars():
+    a, b = 10, 20  # class variables
+
+    def add(self, a, b):
+        print(a + b)  # local variables
+        print(self.a + self.b)  # class variables
+        print(globals()['a'] + globals()['b'])  # global variables
+
+
+snv = same_name_vars()
+snv.add(100, 200)
+
+
+# * creating mul objects for one class
+class mul_obj:
+    def create(self):
+        print("hello friends")
+
+
+obj1 = mul_obj()  # we have one class in this we created multiple objects
+obj1.create()
+
+obj2 = mul_obj()
+obj2.create()
+
+obj3 = mul_obj()
+obj3.create()
+
+
+# * named object nameless object
+class mul_obj:
+    def create(self):
+        print("hello friends")
+
+
+mo = mul_obj()
+mo.create()  # we have given one reference name this is called named object
+mul_obj().create()  # we haven't given  reference name this is called nameless object
+
+
+#  * how to check memory location of the object
+class check_memory:
+    def memory(self):
+        pass
+
+
+c1 = check_memory()
+c2 = check_memory()
+c3 = c1
+print(id(c1))
+print(id(c2))
+print(id(c3))
+print(c1 is c2)
+print(c1 is not c2)
+
+
+# ************* 19 inheritance
+# class  AAAA:
+#     def m1(self):
+#         print("this is m1 method class a ")
+# class  BBB(AAAA):
+#     def m2(self):
+#         print("this is m2 method class b ")
+
+# objs1=AAAA
+# objs1.m1()
+
+# **************  Polymorphism
+# ****** overriding methods   ( same thing same method will recreate in the child class that is a overriding)
+class parent:
+    namep = "scott"
+
+
+class child(parent):
+    namec = "david"
+
+
+obj = child
+print(obj.namec)  # david
+
+
+class parent:
+    namep = "scott"
+
+
+class child(parent):
+    pass
+
+
+obj = child()
+print(obj.namep)
+
+
+class bank:
+    def rateofint(self):
+        return 0
+
+
+class sbi(bank):
+    def rateofint(self):
+        return 10.5
+
+
+z = sbi()
+print(z.rateofint())
+y = bank()
+y.rateofint()
+
+
+# ********* overloading
+class names:
+    def naming(self, name=None):
+        if name is not None:
+            print("yes there is name " + name)
+        else:
+            print("there is no name")
+
+
+x = names()
+x.naming('mamatha')
+x.naming()
+
+
+class bird:
+    def fly(self, name=None):
+        if name == "parrot":
+            print("parrot can fly")
+        if name == "hen":
+            print("hen can't fly")
+        if name is None:
+            print("no bird")
+
+
+z = bird()
+z.fly("parrot")
+z.fly("hen")
+z.fly()
+
+
+# ******* Encapsulation
+# ****************private variables
+class myclass:
+    __a = 10
+
+    def value(self):
+        print(self.__a)
+
+
+a = myclass()
+a.value()
+
+
+# print(myclass.__a)# **** it cannot accept because it is a private
+
+# ********* private method (it can accept only-within the method)
+
+# ****** args kwargs *********
+def sum(*args):
+    s = 0
+    for i in args:
+        s += i
+        print("sum is ", s)
+sum(1, 2, 3, 4)
+
+
+def my_four(a, b, c, d):
+    print(a, b, c, d)
+args = [4, 3, 2, 1]
+my_four(*args)
+
+def my_three(a, b, c):
+    print(a, b, c)
+z = {'a': "one", 'b': "two", 'c': "three"}
+my_three(**z)
+
+def myval (**kwargs):
+    for i,j in kwargs.items():
+        print(i,j)
+myval(name='"prama"',year=2021,stay='bang')
+
+def count(z,x,y):
+    print(z,x,y)
+arg=[1,2,3,]
+
+count(*arg)
+
+def some(q,w,e,r):
+    print(q,w,e,r)
+some(8,7,6,5)
+
+def keyval(name,age,year):
+    print(name,age,year)
+keyval('tommy',3,2021)
+
+
+# *************lambda
+x=lambda a:a*10
+print(x(2))
+x=lambda a,b,c:2*a*b+c
+print(x(4,3,2))
+
+# ************* try except
+print("this is try except")
+
+try:
+    print(10/0)
+except ZeroDivisionError:
+    print("this cant divided by 0")
+print("this is following by try except concept")
+
+try:
+    print(10/5)
+except ZeroDivisionError:
+    print("this cant divided by 0")
+print("this is following by try except concept")
+
+# try:
+#     print(10/0)
+# except TypeError: #this is zero division error but we gave type error
+#     print("This is type error")
+
+try:
+    print(10/0)
+except TypeError:
+    print("This is type error")
+except ZeroDivisionError:
+    print("This is Zero division error")
+
+# print("started")
+# try:
+#     print(10/0)
+# except TypeError:
+#     print("This is type error")
+# except SyntaxError:
+#     print("This is Zero division error")
+# else:
+#     print("entered into else block") # if try block won't be through any error then else block will print.
+# print("completed")
+
+print("started")
+try:
+    print(10/5)
+except TypeError:
+    print("This is type error")
+except SyntaxError:
+    print("This is Zero division error")
+else:
+    print("entered into else block") # if try block won't be through any error then else block will print
+print("completed")
+
+print("started")
+try:
+    print("try block", 10/5)
+except TypeError:
+    print("This is type error")
+except SyntaxError:
+    print("This is Zero division error")
+else:
+    print("entered into else block") # if try block won't be through any error then else block will print
+finally:
+    print("entered into finally block")
+print("completed")
+
+print("started")
+try:
+    print("try block", 10/0)
+except TypeError:
+    print("This is type error")
+except ZeroDivisionError:
+    print("This is Zero division error")
+else:
+    print("entered into else block") # if try block won't be through any error then else block will print
+finally:
+    print("entered into finally block")
+print("completed")
+
+# case1 :if try will handle------- try,else,finally
+# case2 :if try will not handle----- exception,finally
+
+# ***** raise exception
+def entrage(age):
+    if age<0:
+        print("only positivr numbers will accept")
+    if age%2==0:
+        print("age is even")
+    else:
+        print("age is odd")
+
+num=0
+entrage(num)
+
+def entrage(age):
+    if age<0:
+        raise ValueError("only positive numbers will accept")
+    if age%2==0:
+        print("age is even")
+    else:
+        print("age is odd")
+# num=0
+# entrage(num)
+
+try:
+    num=-3
+    entrage(num)
+except ValueError:
+    print("only positive numbers will accept")
+except:
+    print("some thing is wrong")
+
+try:
+    name=prama
+    print("this name is",name)
+except NameError as e:
+    print("error : ",e)
