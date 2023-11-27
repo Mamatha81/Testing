@@ -1,4 +1,3 @@
-import pdb
 from selenium.webdriver.support import expected_conditions as EC
 
 from behave import *
@@ -8,6 +7,7 @@ from selenium.webdriver.common.by import By
 import time
 
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 @given('mamatha Launched chrome browser')
@@ -30,16 +30,14 @@ def amazon_hp(context):
 @when('she search for "{brand}" mobile')
 def mobile(context, brand):
     context.driver.find_element(By.XPATH, "//input[@id='twotabsearchtextbox']").click()
-    time.sleep(3)
     context.driver.find_element(By.XPATH, "//input[@id='twotabsearchtextbox']").send_keys(brand)
-    time.sleep(3)
     context.driver.find_element(By.XPATH, "//input[@id='twotabsearchtextbox']").send_keys(Keys.ENTER)
-    time.sleep(10)
 
 
 @when('she filters by rating "{star}"')
 def rating_fltr(context, star):
-    context.driver.find_element(By.XPATH, f"//section[@aria-label='{star} Stars & Up']").click()
+    stars = WebDriverWait(context.driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//section[@aria-label='{star} Stars & Up']")))
+    stars.click()
     time.sleep(5)
 
 
@@ -50,8 +48,6 @@ def cart(context, n):
     for i in range(1, int(n) + 1):
         link = context.driver.find_element(By.XPATH,f"(//div[contains(@class,'s-title-instructions-style')]//a[contains(@class,'a-text-normal')])[{i}]").get_attribute("href")
         links.append(link)
-        time.sleep(3)
-        print(links)
 
     prices = []
 
@@ -60,35 +56,39 @@ def cart(context, n):
         cost = context.driver.find_element(By.XPATH, "//div[@id='apex_desktop']//span[@class='a-price-whole']").text
         prices.append(cost)
         time.sleep(3)
-        context.driver.find_element(By.ID, "add-to-cart-button").click()
-        time.sleep(15)
-        # element = WebDriverWait(context.driver, 20)
-        # element.until(EC.element_to_be_clickable((By.XPATH,"add-to-cart-button"))).click()
-    print(prices)
-    for i in prices:
-        print(i)
-    count = [int(x.replace(",", "")) for x in prices]
-    print(count)
-    context.final_price = sum(count)
-    time.sleep(3)
+        add_to_cart = context.driver.find_element(By.XPATH, "//div[@id='desktop_qualifiedBuyBox']//span[text()='Add to Cart']")
+        context.driver.execute_script("arguments[0].scrollIntoView();", add_to_cart)
+        add_to_cart = WebDriverWait(context.driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='desktop_qualifiedBuyBox']//span[text()='Add to Cart']")
+                                                                                         ))
+        ActionChains(context.driver).move_to_element(add_to_cart).click().perform()
+
+        time.sleep(3)
+
+
+    prices = [int(x.replace(",", "")) for x in prices]
+
+    context.final_price = sum(prices)
+
+
+@when('she naviagtes to cart')
+def open_cart(context):
+    context.driver.refresh()
+
+    cart = WebDriverWait(context.driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//div[@id='nav-belt']//a[@id='nav-cart']")))
+
+    cart.click()
 
 
 @then('she verifies the cart value is same')
 def same_value(context):
-    context.driver.find_element(By.ID, "attach-close_sideSheet-link").click()
-    time.sleep(3)
-    context.driver.find_element(By.XPATH, "//div[@id='nav-belt']//a[@id='nav-cart']").click()
-    time.sleep(10)
-    cart_count = context.driver.find_element(By.ID, "sc-subtotal-amount-buybox").text
-    print(cart_count)
+    cart_amount = WebDriverWait(context.driver, 10).until(
+        EC.presence_of_element_located((By.ID, "sc-subtotal-amount-buybox")))
+    cart_count = cart_amount.text
 
     cart = cart_count.replace(",", "")
-    bal = float(cart)
-    total = int(bal)
-    print(total)
+    cart = float(cart)
+    cart_value = int(cart)
 
-    time.sleep(5)
-    if total == context.final_price:
-        print("yes")
-    else:
-        print("no")
+    assert cart_value == context.final_price,"Cart values is different"
+
