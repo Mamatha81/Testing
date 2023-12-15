@@ -2,7 +2,7 @@
 Feature: work on the mymedgas
   Background: common steps in mymedgs
     Given mammu login into the my medgas home page
-    When she have to enter email "xxxxxxx" and yyyyyyy ""
+    When she have to enter email "gamil" and password "password"
     And she clicks on sign in button
 
   @facilities
